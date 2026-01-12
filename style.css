@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: black;
+  color: #00ffee;
+}
+
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.box {
+  background: rgba(15,15,15,0.95);
+  padding: 25px;
+  width: 300px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 0 25px #00ffee;
+}
+
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+button {
+  background: #00ffee;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  background: #0a0a0a;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px;
+}
+
+table {
+  width: 95%;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #222;
+  padding: 8px;
+  text-align: center;
+}
+
+.win { color: lime; }
+.loss { color: red; }
+
+.profile {
+  background: #111;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #0a0a0a;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .info {
+    flex-direction: column;
+    align-items: center;
+  }
+}
