@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>VISION AI | Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="particles-js"></div>
+
+<header>
+  <h1>VISION AI</h1>
+  <button onclick="logout()">Logout</button>
+</header>
+
+<div class="info">
+  <div>Current Period<br><b id="period">Loading...</b></div>
+  <div>Time<br><b id="time">--:--:--</b></div>
+</div>
+
+<h3 class="center-text">Predictions</h3>
+<table>
+  <tr>
+    <th>Period</th>
+    <th>Prediction</th>
+    <th>Actual</th>
+    <th>Status</th>
+  </tr>
+  <tr>
+    <td>10231</td>
+    <td>UP</td>
+    <td>UP</td>
+    <td class="win">WIN</td>
+  </tr>
+  <tr>
+    <td>10232</td>
+    <td>DOWN</td>
+    <td>UP</td>
+    <td class="loss">LOSS</td>
+  </tr>
+</table>
+
+<h3 class="center-text">Profile</h3>
+<div class="profile">
+  <p>Access Key: KEY123</p>
+  <p>Device ID: DEMO-DEVICE</p>
+  <p>Total Wins: 1</p>
+  <p>Total Losses: 1</p>
+</div>
+
+<footer>
+  <span>Home</span>
+  <span>History</span>
+  <span>Profile</span>
+</footer>
+
+<script src="particles.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
